@@ -36,6 +36,7 @@ print("Genommener Urlaug: \(takenHolidays)")
 print()
 print("Dein Resturlaub beträgt: \(amountOfHolidaysLeft) ")
 
+print("holidays left \(amountOfHolidays)")
 print("------------Arrays-------------")
 
 var abc = ["a","b","c","d","e","f","g","h","i","j","k","l"]
