@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		342C56DC29AF56AC00333A06 /* GEILdesignt_ShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342C56DB29AF56AC00333A06 /* GEILdesignt_ShopApp.swift */; };
+		342C56DE29AF56AC00333A06 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342C56DD29AF56AC00333A06 /* ContentView.swift */; };
+		342C56E029AF56AC00333A06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 342C56DF29AF56AC00333A06 /* Assets.xcassets */; };
+		342C56E429AF56AC00333A06 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 342C56E329AF56AC00333A06 /* Preview Assets.xcassets */; };
+		342C56EE29AF56AD00333A06 /* GEILdesignt_ShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342C56ED29AF56AD00333A06 /* GEILdesignt_ShopTests.swift */; };
+		342C56F829AF56AD00333A06 /* GEILdesignt_ShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342C56F729AF56AD00333A06 /* GEILdesignt_ShopUITests.swift */; };
+		342C56FA29AF56AD00333A06 /* GEILdesignt_ShopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342C56F929AF56AD00333A06 /* GEILdesignt_ShopUITestsLaunchTests.swift */; };
+		342C571029AF578C00333A06 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342C570F29AF578C00333A06 /* Constants.swift */; };
+		342C571429AF64A500333A06 /* Sellable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342C571329AF64A500333A06 /* Sellable.swift */; };
+		342C571629AF66AC00333A06 /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342C571529AF66AC00333A06 /* Price.swift */; };
+		342C571829AF66D500333A06 /* SellableResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342C571729AF66D500333A06 /* SellableResponse.swift */; };
+		342C571A29AF66F300333A06 /* PreviewImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342C571929AF66F300333A06 /* PreviewImage.swift */; };
+		342C571C29AF691900333A06 /* SellablesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342C571B29AF691900333A06 /* SellablesViewModel.swift */; };
+		342C572229AF7B3300333A06 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342C572129AF7B3300333A06 /* APIService.swift */; };
+		342C572629AF89BF00333A06 /* URL+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342C572529AF89BF00333A06 /* URL+Extension.swift */; };
+		342C572E29AFA99800333A06 /* SellableListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342C572D29AFA99800333A06 /* SellableListView.swift */; };
+		342C573029AFAFE800333A06 /* SellableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342C572F29AFAFE800333A06 /* SellableView.swift */; };
+		3491381B29B0EA80002075B4 /* SellablesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3491381A29B0EA80002075B4 /* SellablesDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		342C56EA29AF56AD00333A06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 342C56D029AF56AC00333A06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 342C56D729AF56AC00333A06;
+			remoteInfo = GEILdesignt_Shop;
+		};
+		342C56F429AF56AD00333A06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 342C56D029AF56AC00333A06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 342C56D729AF56AC00333A06;
+			remoteInfo = GEILdesignt_Shop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		342C56D829AF56AC00333A06 /* GEILdesignt_Shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GEILdesignt_Shop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		342C56DB29AF56AC00333A06 /* GEILdesignt_ShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GEILdesignt_ShopApp.swift; sourceTree = "<group>"; };
+		342C56DD29AF56AC00333A06 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		342C56DF29AF56AC00333A06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		342C56E129AF56AC00333A06 /* GEILdesignt_Shop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GEILdesignt_Shop.entitlements; sourceTree = "<group>"; };
+		342C56E329AF56AC00333A06 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		342C56E929AF56AD00333A06 /* GEILdesignt_ShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GEILdesignt_ShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		342C56ED29AF56AD00333A06 /* GEILdesignt_ShopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GEILdesignt_ShopTests.swift; sourceTree = "<group>"; };
+		342C56F329AF56AD00333A06 /* GEILdesignt_ShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GEILdesignt_ShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		342C56F729AF56AD00333A06 /* GEILdesignt_ShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GEILdesignt_ShopUITests.swift; sourceTree = "<group>"; };
+		342C56F929AF56AD00333A06 /* GEILdesignt_ShopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GEILdesignt_ShopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		342C570F29AF578C00333A06 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		342C571329AF64A500333A06 /* Sellable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sellable.swift; sourceTree = "<group>"; };
+		342C571529AF66AC00333A06 /* Price.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Price.swift; sourceTree = "<group>"; };
+		342C571729AF66D500333A06 /* SellableResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellableResponse.swift; sourceTree = "<group>"; };
+		342C571929AF66F300333A06 /* PreviewImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewImage.swift; sourceTree = "<group>"; };
+		342C571B29AF691900333A06 /* SellablesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellablesViewModel.swift; sourceTree = "<group>"; };
+		342C572129AF7B3300333A06 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		342C572529AF89BF00333A06 /* URL+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extension.swift"; sourceTree = "<group>"; };
+		342C572D29AFA99800333A06 /* SellableListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellableListView.swift; sourceTree = "<group>"; };
+		342C572F29AFAFE800333A06 /* SellableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellableView.swift; sourceTree = "<group>"; };
+		3491381A29B0EA80002075B4 /* SellablesDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellablesDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		342C56D529AF56AC00333A06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342C56E629AF56AD00333A06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342C56F029AF56AD00333A06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		342C56CF29AF56AC00333A06 = {
+			isa = PBXGroup;
+			children = (
+				342C56DA29AF56AC00333A06 /* GEILdesignt_Shop */,
+				342C56EC29AF56AD00333A06 /* GEILdesignt_ShopTests */,
+				342C56F629AF56AD00333A06 /* GEILdesignt_ShopUITests */,
+				342C56D929AF56AC00333A06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		342C56D929AF56AC00333A06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				342C56D829AF56AC00333A06 /* GEILdesignt_Shop.app */,
+				342C56E929AF56AD00333A06 /* GEILdesignt_ShopTests.xctest */,
+				342C56F329AF56AD00333A06 /* GEILdesignt_ShopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		342C56DA29AF56AC00333A06 /* GEILdesignt_Shop */ = {
+			isa = PBXGroup;
+			children = (
+				342C570629AF56C500333A06 /* Utils */,
+				342C570729AF56D100333A06 /* ViewModels */,
+				342C570E29AF572900333A06 /* Views */,
+				342C570829AF56E000333A06 /* Models */,
+				342C570929AF56EB00333A06 /* Servies */,
+				342C570A29AF56FC00333A06 /* Loader */,
+				342C570B29AF570300333A06 /* Controls */,
+				342C570C29AF571000333A06 /* Extensions */,
+				342C570D29AF571D00333A06 /* Screens */,
+				342C56DB29AF56AC00333A06 /* GEILdesignt_ShopApp.swift */,
+				342C56DD29AF56AC00333A06 /* ContentView.swift */,
+				342C56DF29AF56AC00333A06 /* Assets.xcassets */,
+				342C56E129AF56AC00333A06 /* GEILdesignt_Shop.entitlements */,
+				342C56E229AF56AC00333A06 /* Preview Content */,
+			);
+			path = GEILdesignt_Shop;
+			sourceTree = "<group>";
+		};
+		342C56E229AF56AC00333A06 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				342C56E329AF56AC00333A06 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		342C56EC29AF56AD00333A06 /* GEILdesignt_ShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				342C56ED29AF56AD00333A06 /* GEILdesignt_ShopTests.swift */,
+			);
+			path = GEILdesignt_ShopTests;
+			sourceTree = "<group>";
+		};
+		342C56F629AF56AD00333A06 /* GEILdesignt_ShopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				342C56F729AF56AD00333A06 /* GEILdesignt_ShopUITests.swift */,
+				342C56F929AF56AD00333A06 /* GEILdesignt_ShopUITestsLaunchTests.swift */,
+			);
+			path = GEILdesignt_ShopUITests;
+			sourceTree = "<group>";
+		};
+		342C570629AF56C500333A06 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				342C570F29AF578C00333A06 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		342C570729AF56D100333A06 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				342C571B29AF691900333A06 /* SellablesViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		342C570829AF56E000333A06 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				342C571729AF66D500333A06 /* SellableResponse.swift */,
+				342C571329AF64A500333A06 /* Sellable.swift */,
+				342C571529AF66AC00333A06 /* Price.swift */,
+				342C571929AF66F300333A06 /* PreviewImage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		342C570929AF56EB00333A06 /* Servies */ = {
+			isa = PBXGroup;
+			children = (
+				342C572129AF7B3300333A06 /* APIService.swift */,
+			);
+			path = Servies;
+			sourceTree = "<group>";
+		};
+		342C570A29AF56FC00333A06 /* Loader */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Loader;
+			sourceTree = "<group>";
+		};
+		342C570B29AF570300333A06 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		342C570C29AF571000333A06 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				342C572529AF89BF00333A06 /* URL+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		342C570D29AF571D00333A06 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		342C570E29AF572900333A06 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				342C572D29AFA99800333A06 /* SellableListView.swift */,
+				342C572F29AFAFE800333A06 /* SellableView.swift */,
+				3491381A29B0EA80002075B4 /* SellablesDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		342C56D729AF56AC00333A06 /* GEILdesignt_Shop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 342C56FD29AF56AD00333A06 /* Build configuration list for PBXNativeTarget "GEILdesignt_Shop" */;
+			buildPhases = (
+				342C56D429AF56AC00333A06 /* Sources */,
+				342C56D529AF56AC00333A06 /* Frameworks */,
+				342C56D629AF56AC00333A06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GEILdesignt_Shop;
+			productName = GEILdesignt_Shop;
+			productReference = 342C56D829AF56AC00333A06 /* GEILdesignt_Shop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		342C56E829AF56AD00333A06 /* GEILdesignt_ShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 342C570029AF56AD00333A06 /* Build configuration list for PBXNativeTarget "GEILdesignt_ShopTests" */;
+			buildPhases = (
+				342C56E529AF56AD00333A06 /* Sources */,
+				342C56E629AF56AD00333A06 /* Frameworks */,
+				342C56E729AF56AD00333A06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				342C56EB29AF56AD00333A06 /* PBXTargetDependency */,
+			);
+			name = GEILdesignt_ShopTests;
+			productName = GEILdesignt_ShopTests;
+			productReference = 342C56E929AF56AD00333A06 /* GEILdesignt_ShopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		342C56F229AF56AD00333A06 /* GEILdesignt_ShopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 342C570329AF56AD00333A06 /* Build configuration list for PBXNativeTarget "GEILdesignt_ShopUITests" */;
+			buildPhases = (
+				342C56EF29AF56AD00333A06 /* Sources */,
+				342C56F029AF56AD00333A06 /* Frameworks */,
+				342C56F129AF56AD00333A06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				342C56F529AF56AD00333A06 /* PBXTargetDependency */,
+			);
+			name = GEILdesignt_ShopUITests;
+			productName = GEILdesignt_ShopUITests;
+			productReference = 342C56F329AF56AD00333A06 /* GEILdesignt_ShopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		342C56D029AF56AC00333A06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					342C56D729AF56AC00333A06 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					342C56E829AF56AD00333A06 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 342C56D729AF56AC00333A06;
+					};
+					342C56F229AF56AD00333A06 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 342C56D729AF56AC00333A06;
+					};
+				};
+			};
+			buildConfigurationList = 342C56D329AF56AC00333A06 /* Build configuration list for PBXProject "GEILdesignt_Shop" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 342C56CF29AF56AC00333A06;
+			productRefGroup = 342C56D929AF56AC00333A06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				342C56D729AF56AC00333A06 /* GEILdesignt_Shop */,
+				342C56E829AF56AD00333A06 /* GEILdesignt_ShopTests */,
+				342C56F229AF56AD00333A06 /* GEILdesignt_ShopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		342C56D629AF56AC00333A06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342C56E429AF56AC00333A06 /* Preview Assets.xcassets in Resources */,
+				342C56E029AF56AC00333A06 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342C56E729AF56AD00333A06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342C56F129AF56AD00333A06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		342C56D429AF56AC00333A06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342C56DE29AF56AC00333A06 /* ContentView.swift in Sources */,
+				342C572E29AFA99800333A06 /* SellableListView.swift in Sources */,
+				342C571429AF64A500333A06 /* Sellable.swift in Sources */,
+				342C571A29AF66F300333A06 /* PreviewImage.swift in Sources */,
+				342C572229AF7B3300333A06 /* APIService.swift in Sources */,
+				342C56DC29AF56AC00333A06 /* GEILdesignt_ShopApp.swift in Sources */,
+				342C572629AF89BF00333A06 /* URL+Extension.swift in Sources */,
+				342C571629AF66AC00333A06 /* Price.swift in Sources */,
+				342C573029AFAFE800333A06 /* SellableView.swift in Sources */,
+				342C571829AF66D500333A06 /* SellableResponse.swift in Sources */,
+				342C571C29AF691900333A06 /* SellablesViewModel.swift in Sources */,
+				342C571029AF578C00333A06 /* Constants.swift in Sources */,
+				3491381B29B0EA80002075B4 /* SellablesDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342C56E529AF56AD00333A06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342C56EE29AF56AD00333A06 /* GEILdesignt_ShopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342C56EF29AF56AD00333A06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342C56FA29AF56AD00333A06 /* GEILdesignt_ShopUITestsLaunchTests.swift in Sources */,
+				342C56F829AF56AD00333A06 /* GEILdesignt_ShopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		342C56EB29AF56AD00333A06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 342C56D729AF56AC00333A06 /* GEILdesignt_Shop */;
+			targetProxy = 342C56EA29AF56AD00333A06 /* PBXContainerItemProxy */;
+		};
+		342C56F529AF56AD00333A06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 342C56D729AF56AC00333A06 /* GEILdesignt_Shop */;
+			targetProxy = 342C56F429AF56AD00333A06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		342C56FB29AF56AD00333A06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		342C56FC29AF56AD00333A06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		342C56FE29AF56AD00333A06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GEILdesignt_Shop/GEILdesignt_Shop.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GEILdesignt_Shop/Preview Content\"";
+				DEVELOPMENT_TEAM = X8FPBDF85Z;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.geildesignt.GEILdesignt-Shop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		342C56FF29AF56AD00333A06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GEILdesignt_Shop/GEILdesignt_Shop.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GEILdesignt_Shop/Preview Content\"";
+				DEVELOPMENT_TEAM = X8FPBDF85Z;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.geildesignt.GEILdesignt-Shop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		342C570129AF56AD00333A06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8FPBDF85Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.geildesignt.GEILdesignt-ShopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GEILdesignt_Shop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GEILdesignt_Shop";
+			};
+			name = Debug;
+		};
+		342C570229AF56AD00333A06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8FPBDF85Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.geildesignt.GEILdesignt-ShopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GEILdesignt_Shop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GEILdesignt_Shop";
+			};
+			name = Release;
+		};
+		342C570429AF56AD00333A06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8FPBDF85Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.geildesignt.GEILdesignt-ShopUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GEILdesignt_Shop;
+			};
+			name = Debug;
+		};
+		342C570529AF56AD00333A06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8FPBDF85Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.geildesignt.GEILdesignt-ShopUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GEILdesignt_Shop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		342C56D329AF56AC00333A06 /* Build configuration list for PBXProject "GEILdesignt_Shop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				342C56FB29AF56AD00333A06 /* Debug */,
+				342C56FC29AF56AD00333A06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		342C56FD29AF56AD00333A06 /* Build configuration list for PBXNativeTarget "GEILdesignt_Shop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				342C56FE29AF56AD00333A06 /* Debug */,
+				342C56FF29AF56AD00333A06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		342C570029AF56AD00333A06 /* Build configuration list for PBXNativeTarget "GEILdesignt_ShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				342C570129AF56AD00333A06 /* Debug */,
+				342C570229AF56AD00333A06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		342C570329AF56AD00333A06 /* Build configuration list for PBXNativeTarget "GEILdesignt_ShopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				342C570429AF56AD00333A06 /* Debug */,
+				342C570529AF56AD00333A06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 342C56D029AF56AC00333A06 /* Project object */;
+}

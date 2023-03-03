@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34EC4A442984974200B0655B /* SpielereiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EC4A432984974200B0655B /* SpielereiApp.swift */; };
+		34EC4A462984974200B0655B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EC4A452984974200B0655B /* ContentView.swift */; };
+		34EC4A482984974300B0655B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34EC4A472984974300B0655B /* Assets.xcassets */; };
+		34EC4A4B2984974300B0655B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34EC4A4A2984974300B0655B /* Preview Assets.xcassets */; };
+		34EC4A552984974300B0655B /* SpielereiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EC4A542984974300B0655B /* SpielereiTests.swift */; };
+		34EC4A5F2984974300B0655B /* SpielereiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EC4A5E2984974300B0655B /* SpielereiUITests.swift */; };
+		34EC4A612984974300B0655B /* SpielereiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EC4A602984974300B0655B /* SpielereiUITestsLaunchTests.swift */; };
+		34EC4A72298498A900B0655B /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EC4A71298498A900B0655B /* GameModel.swift */; };
+		34EC4A74298498B600B0655B /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EC4A73298498B600B0655B /* GameViewModel.swift */; };
+		34EC4A76298498BF00B0655B /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EC4A75298498BF00B0655B /* GameView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34EC4A512984974300B0655B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34EC4A382984974200B0655B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34EC4A3F2984974200B0655B;
+			remoteInfo = Spielerei;
+		};
+		34EC4A5B2984974300B0655B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34EC4A382984974200B0655B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34EC4A3F2984974200B0655B;
+			remoteInfo = Spielerei;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34EC4A402984974200B0655B /* Spielerei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spielerei.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34EC4A432984974200B0655B /* SpielereiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpielereiApp.swift; sourceTree = "<group>"; };
+		34EC4A452984974200B0655B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		34EC4A472984974300B0655B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34EC4A4A2984974300B0655B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		34EC4A502984974300B0655B /* SpielereiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpielereiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34EC4A542984974300B0655B /* SpielereiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpielereiTests.swift; sourceTree = "<group>"; };
+		34EC4A5A2984974300B0655B /* SpielereiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpielereiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34EC4A5E2984974300B0655B /* SpielereiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpielereiUITests.swift; sourceTree = "<group>"; };
+		34EC4A602984974300B0655B /* SpielereiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpielereiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		34EC4A71298498A900B0655B /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		34EC4A73298498B600B0655B /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		34EC4A75298498BF00B0655B /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34EC4A3D2984974200B0655B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34EC4A4D2984974300B0655B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34EC4A572984974300B0655B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34EC4A372984974200B0655B = {
+			isa = PBXGroup;
+			children = (
+				34EC4A422984974200B0655B /* Spielerei */,
+				34EC4A532984974300B0655B /* SpielereiTests */,
+				34EC4A5D2984974300B0655B /* SpielereiUITests */,
+				34EC4A412984974200B0655B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34EC4A412984974200B0655B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34EC4A402984974200B0655B /* Spielerei.app */,
+				34EC4A502984974300B0655B /* SpielereiTests.xctest */,
+				34EC4A5A2984974300B0655B /* SpielereiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34EC4A422984974200B0655B /* Spielerei */ = {
+			isa = PBXGroup;
+			children = (
+				34EC4A6F2984978A00B0655B /* Models */,
+				34EC4A6E2984977E00B0655B /* ViewModels */,
+				34EC4A6D2984977200B0655B /* Views */,
+				34EC4A432984974200B0655B /* SpielereiApp.swift */,
+				34EC4A702984979900B0655B /* Screens */,
+				34EC4A472984974300B0655B /* Assets.xcassets */,
+				34EC4A492984974300B0655B /* Preview Content */,
+			);
+			path = Spielerei;
+			sourceTree = "<group>";
+		};
+		34EC4A492984974300B0655B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				34EC4A4A2984974300B0655B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		34EC4A532984974300B0655B /* SpielereiTests */ = {
+			isa = PBXGroup;
+			children = (
+				34EC4A542984974300B0655B /* SpielereiTests.swift */,
+			);
+			path = SpielereiTests;
+			sourceTree = "<group>";
+		};
+		34EC4A5D2984974300B0655B /* SpielereiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34EC4A5E2984974300B0655B /* SpielereiUITests.swift */,
+				34EC4A602984974300B0655B /* SpielereiUITestsLaunchTests.swift */,
+			);
+			path = SpielereiUITests;
+			sourceTree = "<group>";
+		};
+		34EC4A6D2984977200B0655B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				34EC4A77298499C000B0655B /* Extensions */,
+				34EC4A75298498BF00B0655B /* GameView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		34EC4A6E2984977E00B0655B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				34EC4A73298498B600B0655B /* GameViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		34EC4A6F2984978A00B0655B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				34EC4A71298498A900B0655B /* GameModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		34EC4A702984979900B0655B /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				34EC4A452984974200B0655B /* ContentView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		34EC4A77298499C000B0655B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34EC4A3F2984974200B0655B /* Spielerei */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34EC4A642984974300B0655B /* Build configuration list for PBXNativeTarget "Spielerei" */;
+			buildPhases = (
+				34EC4A3C2984974200B0655B /* Sources */,
+				34EC4A3D2984974200B0655B /* Frameworks */,
+				34EC4A3E2984974200B0655B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spielerei;
+			productName = Spielerei;
+			productReference = 34EC4A402984974200B0655B /* Spielerei.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34EC4A4F2984974300B0655B /* SpielereiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34EC4A672984974300B0655B /* Build configuration list for PBXNativeTarget "SpielereiTests" */;
+			buildPhases = (
+				34EC4A4C2984974300B0655B /* Sources */,
+				34EC4A4D2984974300B0655B /* Frameworks */,
+				34EC4A4E2984974300B0655B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34EC4A522984974300B0655B /* PBXTargetDependency */,
+			);
+			name = SpielereiTests;
+			productName = SpielereiTests;
+			productReference = 34EC4A502984974300B0655B /* SpielereiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34EC4A592984974300B0655B /* SpielereiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34EC4A6A2984974300B0655B /* Build configuration list for PBXNativeTarget "SpielereiUITests" */;
+			buildPhases = (
+				34EC4A562984974300B0655B /* Sources */,
+				34EC4A572984974300B0655B /* Frameworks */,
+				34EC4A582984974300B0655B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34EC4A5C2984974300B0655B /* PBXTargetDependency */,
+			);
+			name = SpielereiUITests;
+			productName = SpielereiUITests;
+			productReference = 34EC4A5A2984974300B0655B /* SpielereiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34EC4A382984974200B0655B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					34EC4A3F2984974200B0655B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					34EC4A4F2984974300B0655B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 34EC4A3F2984974200B0655B;
+					};
+					34EC4A592984974300B0655B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 34EC4A3F2984974200B0655B;
+					};
+				};
+			};
+			buildConfigurationList = 34EC4A3B2984974200B0655B /* Build configuration list for PBXProject "Spielerei" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34EC4A372984974200B0655B;
+			productRefGroup = 34EC4A412984974200B0655B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34EC4A3F2984974200B0655B /* Spielerei */,
+				34EC4A4F2984974300B0655B /* SpielereiTests */,
+				34EC4A592984974300B0655B /* SpielereiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34EC4A3E2984974200B0655B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34EC4A4B2984974300B0655B /* Preview Assets.xcassets in Resources */,
+				34EC4A482984974300B0655B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34EC4A4E2984974300B0655B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34EC4A582984974300B0655B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34EC4A3C2984974200B0655B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34EC4A74298498B600B0655B /* GameViewModel.swift in Sources */,
+				34EC4A462984974200B0655B /* ContentView.swift in Sources */,
+				34EC4A442984974200B0655B /* SpielereiApp.swift in Sources */,
+				34EC4A72298498A900B0655B /* GameModel.swift in Sources */,
+				34EC4A76298498BF00B0655B /* GameView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34EC4A4C2984974300B0655B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34EC4A552984974300B0655B /* SpielereiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34EC4A562984974300B0655B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34EC4A5F2984974300B0655B /* SpielereiUITests.swift in Sources */,
+				34EC4A612984974300B0655B /* SpielereiUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34EC4A522984974300B0655B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34EC4A3F2984974200B0655B /* Spielerei */;
+			targetProxy = 34EC4A512984974300B0655B /* PBXContainerItemProxy */;
+		};
+		34EC4A5C2984974300B0655B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34EC4A3F2984974200B0655B /* Spielerei */;
+			targetProxy = 34EC4A5B2984974300B0655B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		34EC4A622984974300B0655B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34EC4A632984974300B0655B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34EC4A652984974300B0655B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Spielerei/Preview Content\"";
+				DEVELOPMENT_TEAM = X8FPBDF85Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.geildesignt.Spielerei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34EC4A662984974300B0655B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Spielerei/Preview Content\"";
+				DEVELOPMENT_TEAM = X8FPBDF85Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.geildesignt.Spielerei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		34EC4A682984974300B0655B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8FPBDF85Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.geildesignt.SpielereiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spielerei.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Spielerei";
+			};
+			name = Debug;
+		};
+		34EC4A692984974300B0655B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8FPBDF85Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.geildesignt.SpielereiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spielerei.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Spielerei";
+			};
+			name = Release;
+		};
+		34EC4A6B2984974300B0655B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8FPBDF85Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.geildesignt.SpielereiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Spielerei;
+			};
+			name = Debug;
+		};
+		34EC4A6C2984974300B0655B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8FPBDF85Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.geildesignt.SpielereiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Spielerei;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34EC4A3B2984974200B0655B /* Build configuration list for PBXProject "Spielerei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34EC4A622984974300B0655B /* Debug */,
+				34EC4A632984974300B0655B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34EC4A642984974300B0655B /* Build configuration list for PBXNativeTarget "Spielerei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34EC4A652984974300B0655B /* Debug */,
+				34EC4A662984974300B0655B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34EC4A672984974300B0655B /* Build configuration list for PBXNativeTarget "SpielereiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34EC4A682984974300B0655B /* Debug */,
+				34EC4A692984974300B0655B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34EC4A6A2984974300B0655B /* Build configuration list for PBXNativeTarget "SpielereiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34EC4A6B2984974300B0655B /* Debug */,
+				34EC4A6C2984974300B0655B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34EC4A382984974200B0655B /* Project object */;
+}
